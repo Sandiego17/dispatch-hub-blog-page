@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Inter', sans-serif;
+  margin: 3rem 6rem;
+}
+
+.first { grid-area: first; }
+.second { grid-area: second; }
+.third { grid-area: third; }
+.fourth { grid-area: fourth; }
+.fifth { grid-area: fifth; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'first second third'
+    'fourth second fifth';
+  justify-content: space-between;
+}
+
+.postSnippet {
+  margin: 0 0 1rem 0;
+  position: relative;
+  width: 13rem;
+}
+
+.postSnippet:nth-child(2) {
+  width: 26rem;
+}
+
+.postImage {
+  height: auto;
+  width: 100%;
+}
+
+.tag {
+  box-shadow: -.12rem .12rem 0 0 #657281;
+    -webkit-box-shadow: -.12rem .12rem 0 0 #657281;
+    -moz-box-shadow: -.12rem .12rem 0 0 #657281;
+  color: #657281;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: .91rem;
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  width: 5.5rem;
+}
+
+.tagFlank {
+  top: 6.88rem;
+}
+
+.tagMiddle {
+  top: 16.13rem;
+}
+
+.tagLast {
+  top: 6.88rem;
+  width: 7rem;
+}
+
+.postHeading {
+  color: #F26A3B;
+  margin: .94rem 0;
+  line-height: 1.31rem;
+  font-weight: 500;
+}
+
+.headingMain {
+  font-size: 1.92rem;
+  line-height: 2.42rem;
+}
+
+.postCaption {
+  font-size: .75rem;
+  margin: .32rem 0;
+}
