@@ -66,11 +66,11 @@
   width: 7rem;
 }
 
-.postHeading {
+.postHeading, .captionHeader {
   color: #F26A3B;
-  margin: .94rem 0;
-  line-height: 1.31rem;
   font-weight: 500;
+  line-height: 1.31rem;
+  margin: .94rem 0;
 }
 
 .headingMain {
@@ -81,4 +81,66 @@
 .postCaption {
   font-size: .75rem;
   margin: .32rem 0;
+}
+
+.lowerBody {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.75rem 0;
+}
+
+.container {
+  display: flex;
+  margin: 3.13rem 0;
+}
+
+.captionImage {
+  height: auto;
+  width: 16.19rem;
+}
+
+.captionBody {
+  margin: .63rem 1.25rem;
+  width: 25.63rem;
+}
+
+.caption {
+  box-shadow: -.12rem .12rem 0 0 #657281;
+    -webkit-box-shadow: -.12rem .12rem 0 0 #657281;
+    -moz-box-shadow: -.12rem .12rem 0 0 #657281;
+  color: #657281;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: .91rem;
+  width: 7rem;
+}
+
+.captionText, .adText {
+  font-size: .75rem;
+  margin: .32rem 0;
+}
+
+.ad {
+  margin: 3.13rem 0;
+  position: relative;
+  width: 13.75rem;
+}
+
+.adLogo {
+  display: block;
+  margin: .63rem auto;
+}
+
+.adText {
+  padding: 0 1.13rem;
+}
+
+.adPrint {
+  color: #177df3;
+  font-size: .75rem;
+  font-weight: 300;
+  line-height: .94rem;
+  position: absolute;
+  right: 1.56rem;
+  top: -.94rem;
 }
