@@ -1,3 +1,43 @@
-h1 {
-  color: red;
+.recentArticles {
+  height: 200px;
+  background-color: #ded7d7;
+}
+
+.sectionHeading {
+  color: #657281;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+}
+
+.recentSection {
+  display: flex;
+  justify-content: center;
+}
+
+.recent {
+  display: flex;
+}
+
+.recentPost {
+  margin: 0 10px;
+  padding: 5px 0;
+  width: 190px;
+}
+
+.recentHeading {
+  color: #f26a3b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  margin: 0 0 1rem 0;
+}
+
+.recentText {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
 }
