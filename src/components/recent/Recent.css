@@ -1,5 +1,5 @@
 .recentArticles {
-  height: 200px;
+  height: 12.5rem;
   background-color: #ded7d7;
 }
 
@@ -7,10 +7,10 @@
   color: #657281;
   text-align: center;
   margin: 0;
-  padding: 20px;
-  font-size: 16px;
+  padding: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 19.36px;
+  line-height: 1.21rem;
 }
 
 .recentSection {
@@ -23,21 +23,21 @@
 }
 
 .recentPost {
-  margin: 0 10px;
-  padding: 5px 0;
-  width: 190px;
+  margin: 0 .63rem;
+  padding: .31rem 0;
+  width: 11.88rem;
 }
 
 .recentHeading {
   color: #f26a3b;
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 500;
-  line-height: 15px;
+  line-height: .94rem;
   margin: 0 0 1rem 0;
 }
 
 .recentText {
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 300;
-  line-height: 15px;
+  line-height: .94rem;
 }
