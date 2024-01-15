@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
-
 #root {
   margin: 0;
   padding: 0;
 }
 
 .body {
-  font-family: 'Inter', sans-serif;
-  margin: 3rem 6rem;
+  margin: 3rem 6rem 0;
 }
 
 .first { grid-area: first; }
@@ -86,7 +83,7 @@
 .lowerBody {
   display: flex;
   justify-content: space-between;
-  margin: 3.75rem 0;
+  margin: 3.75rem 0 0;
 }
 
 .container {
