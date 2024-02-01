@@ -2,13 +2,13 @@ import './Recent.css';
 
 export const Recent = () => {
   return (
-    <div className="recentArticles">
+    <div className='recentArticles'>
       <h1 className='sectionHeading'>RECENT ARTICLES</h1>
 
-      <div className="recentSection">
+      <div className='recentSection'>
         <div className='recent'>
           <div className='recentImage'>
-            <img src={require('../../assets/images/Mask group (10).png')} className='articleImage' alt="image10" />
+            <img src={require('../../assets/images/Mask group (10).png')} className='articleImage' alt='image10' />
           </div>
           <div className='recentPost'>
             <h3 className='recentHeading'>PACKAGES</h3>
@@ -18,7 +18,7 @@ export const Recent = () => {
 
         <div className='recent'>
           <div className='recentImage'>
-            <img src={require('../../assets/images/Mask group (11).png')} className='articleImage' alt="image11" />
+            <img src={require('../../assets/images/Mask group (11).png')} className='articleImage' alt='image11' />
           </div>
           <div className='recentPost'>
             <h3 className='recentHeading'>FREIGHT</h3>
@@ -28,7 +28,7 @@ export const Recent = () => {
 
         <div className='recent'>
           <div className='recentImage'>
-            <img src={require('../../assets/images/Mask group (12).png')} className='articleImage' alt="image10" />
+            <img src={require('../../assets/images/Mask group (12).png')} className='articleImage' alt='image10' />
           </div>
           <div className='recentPost'>
             <h3 className='recentHeading'>TRANSPORTATION</h3>

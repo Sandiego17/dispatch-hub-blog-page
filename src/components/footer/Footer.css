@@ -21,9 +21,9 @@
 
 .links {
   display: flex;
-  width: 42.5rem;
   height: 9.2rem;
   justify-content: space-between;
+  width: 42.5rem;
 }
 
 .linkSections > h3 {
@@ -87,6 +87,6 @@ ul {
 }
 
 li {
-  padding: 0 0.6rem;
   cursor: pointer;
+  padding: 0 0.6rem;
 }

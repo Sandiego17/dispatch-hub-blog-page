@@ -3,7 +3,7 @@ import './Header.css';
 export const Header = () => {
   return (
     <div className='header'>
-      <div className="headerElements">
+      <div className='headerElements'>
         <div className='logo'>
           <img src={require('../../assets/logos/Dispatch hub logo 1.png')} className='blogLogo' alt='Blog Logo' />
         </div>

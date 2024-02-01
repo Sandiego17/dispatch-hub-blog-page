@@ -1,37 +1,38 @@
 .header {
-  border-bottom: 1px solid #e6e6e6;
-  height: 100px;
+  border-bottom: 0.1rem solid #e6e6e6;
   display: flex;
   align-items: center;
+  height: 6.3rem;
   justify-content: center;
 }
 
 .headerElements {
   display: flex;
-  /* margin: 0 auto; */
-  width: 992px;
-  height: 51px;
+  height: 3.2rem;
   justify-content: space-between;
+  width: 63rem;
 }
 
 .searchBar {
-  width: 460px;
-  height: auto;
   background-color: #e9e9e9;
-  border-radius: 22px;
-  /* padding: 10px; */
+  border-radius: 1.4rem;
   display: flex;
   align-items: center;
+  height: auto;
+  width: 28.8rem;
 }
 
 .searchIcon {
-  margin: 0 0 0 25px;
+  margin: 0 0 0 1.6rem;
 }
 
 .searchBarInput {
-  border: none;
   background-color: #e9e9e9;
-  margin: 0 10px;
+  border: none;
+  border-radius: 0 1.4rem 1.4rem 0;
+  height: 2.8rem;
+  margin: 0 0 0 0.6rem;
+  width: 25.3rem;
 }
 
 .menu {
@@ -42,13 +43,11 @@
 .dropdownButton {
   background-color: #fff;
   border: none;
-  margin: 0.67rem 0 0.67rem 10px;
+  margin: 0.7rem 0 0.7rem 0.6rem;
 }
 
 .dropdown {
-  height: 15px;
-  width: 17px;
-  /* margin: 0.67rem 0; */
-  /* display: flex; */
-  align-self: flex-end;
+  display: flex;
+  height: 0.9rem;
+  width: 1.1rem;
 }
