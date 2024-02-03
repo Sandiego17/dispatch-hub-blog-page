@@ -46,7 +46,7 @@
 
 .dropdownButton {
   height: 100%;
-  margin: 25px 0 0 5px;
+  margin: 1.6rem 0 0 0.3rem;
 }
 
 .dropdown {
@@ -101,7 +101,7 @@
   }
   
   .dropdownButton {
-    margin: 22px 0 0 5px;
+    margin: 1.4rem 0 0 0.3rem;
   }
 }
 
@@ -117,9 +117,5 @@
   
   .searchBar {
     display: none;
-  }
-
-  .dropdownButton {
-    margin: 22px 0 0 5px;
   }
 }
