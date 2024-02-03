@@ -13,7 +13,7 @@
 .fourth { grid-area: fourth; }
 .fifth { grid-area: fifth; }
 
-.grid-container {
+.gridContainer {
   display: grid;
   grid-template-areas:
     'first second third'
@@ -140,4 +140,64 @@
   position: absolute;
   right: 1.56rem;
   top: -.94rem;
+}
+
+@media only screen and (min-width: 1500px) {
+  .body {
+    margin: 3rem 17rem 0;
+  }
+  
+  .postSnippet {
+    width: 18rem;
+  }
+  
+  .postSnippet:nth-child(2) {
+    width: 35rem;
+  }
+  .tag, .caption {
+    font-size: .85rem;
+    line-height: 1rem;
+    width: 6.5rem;
+  }
+  
+  .tagFlank {
+    top: 9.7rem;
+  }
+  
+  .tagMiddle {
+    top: 21.8rem;
+  }
+  
+  .tagLast {
+    top: 9.7rem;
+    width: 8rem;
+  }
+  
+  .headingMain {
+    font-size: 2.6rem;
+  }
+  
+  .postCaption, .captionText, .adText {
+    font-size: .95rem;
+  }
+    
+  .captionImage {
+    width: 18rem;
+  }
+
+  .captionBody {
+    width: 29rem;
+  }
+  
+  .caption {
+    width: 8rem;
+  }
+  
+  .captionText {
+    width: 31rem;
+  }
+  
+  .ad {
+    width: 18rem;
+  }
 }

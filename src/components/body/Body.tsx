@@ -3,7 +3,7 @@ import './Body.css';
 export const Body = () => {
   return (
     <div className='body'>
-      <div className='grid-container'>
+      <div className='gridContainer'>
         <div className='postSnippet first'>
           <img src={require('../../assets/images/Mask group (1).png')} className='postImage' alt='image1' />
           <button className='tag tagFlank'>RECENT</button>
