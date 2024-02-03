@@ -41,3 +41,44 @@
   font-weight: 300;
   line-height: 0.9rem;
 }
+
+@media only screen and (min-width: 1500px) {
+  .sectionHeading {
+    font-size: 1.2rem;
+  }
+
+  .recentImage {
+    margin: 0 1.4rem;
+  }
+  
+  .recentPost {
+    margin: 0;
+    width: 18rem;
+  }
+  
+  .recentHeading {
+    font-size: 1rem;
+  }
+  
+  .recentText {
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .recentPost {
+    margin: 0 1.4rem;
+    width: 6rem;
+  }
+
+  .recentHeading {
+    margin-bottom: 0.7rem;
+  }
+
+  .recentText {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+}
