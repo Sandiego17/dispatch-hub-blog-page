@@ -56,6 +56,14 @@ export const Header = ({
         </button>
 
         <div className={`${styles.navButtons} ${showNavButtons ? styles.show : ''}`}>
+          <div className={styles.searchBar}>
+            <img
+              src={require('../../assets/icons/Search Icon.png')}
+              className={styles.searchIcon}
+              alt='Search Icon'
+            />
+            <input className={styles.searchBarInput} type='text' placeholder='Search' />
+          </div>
           <ul>
             <li className={styles.navLinks}>{home}</li>
             <li className={styles.navLinks}>{aboutUs}</li>
