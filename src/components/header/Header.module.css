@@ -68,7 +68,8 @@
 
 .navLinks:hover {
   background-color: #F26A3B;
-  border-radius: 1.3rem 1.3rem 0 0 ;
+  border-radius: 1.3rem 1.3rem 0 0;
+  color: #fff;
 }
 
 @media only screen and (max-width: 1500px) {
