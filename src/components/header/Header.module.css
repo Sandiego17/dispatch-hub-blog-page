@@ -170,7 +170,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   .navButtons > .searchBar {
     display: none;
   }

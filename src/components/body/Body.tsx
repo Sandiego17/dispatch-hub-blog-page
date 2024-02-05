@@ -6,25 +6,26 @@ export const Body = () => {
       <div className='gridContainer'>
         <div className='postSnippet first'>
           <img
-            src={require('../../assets/images/Mask group (1).png')}
+            src={require('../../assets/images/Mask group (2).png')}
             className='postImage'
             alt='image1'
+          />
+          <button className='tag tagMiddle'>DELIVERY</button>
+          <h3 className='postHeading headingMain'>Lorem Ipsum - Gyak Dolor Sit Amet Consectetur.</h3>
+          <p className='postCaption'>Lorem Ipsum Dolor Sit Amet Consectetur. Sapien Laoreet Quis Ultricies Convallis A Aliquet Laoreet Habitant. Nulla Consequat Malesuada Placerat Commodo Arcu Hac Nec Ornare Aenean. A Bibendum Ornare Arcu Sit Pellentesque. Ornare Faucibus Fermentum Convallis Cursus Porta Vestibulum Enim Euismod. Nunc Ut Convallis Quis Consequat Molestie Et Aliquam. Cursus In Auctor Vivamus Congue Purus Felis.</p>
+        </div>
+
+        <div className='postSnippet second'>
+          <img
+            src={require('../../assets/images/Mask group (1).png')}
+            className='postImage'
+            alt='image2'
           />
           <button className='tag tagFlank'>RECENT</button>
           <h3 className='postHeading'>Lorem Ipsum Dolor Sit Amet Consectetur.</h3>
           <p className='postCaption'>Lorem Ipsum Dolor Sit Amet Consectetur. Turpis Etiam Gravida Mi Viverra Nisi Aenean Senectus Tortor. At Vitae Id Nunc Aliquet.</p>
         </div>
 
-        <div className='postSnippet second'>
-          <img
-            src={require('../../assets/images/Mask group (2).png')}
-            className='postImage'
-            alt='image2'
-          />
-          <button className='tag tagMiddle'>DELIVERY</button>
-          <h3 className='postHeading headingMain'>Lorem Ipsum - Gyak Dolor Sit Amet Consectetur.</h3>
-          <p className='postCaption'>Lorem Ipsum Dolor Sit Amet Consectetur. Sapien Laoreet Quis Ultricies Convallis A Aliquet Laoreet Habitant. Nulla Consequat Malesuada Placerat Commodo Arcu Hac Nec Ornare Aenean. A Bibendum Ornare Arcu Sit Pellentesque. Ornare Faucibus Fermentum Convallis Cursus Porta Vestibulum Enim Euismod. Nunc Ut Convallis Quis Consequat Molestie Et Aliquam. Cursus In Auctor Vivamus Congue Purus Felis.</p>
-        </div>
 
         <div className='postSnippet third'>
           <img

@@ -16,8 +16,8 @@
 .gridContainer {
   display: grid;
   grid-template-areas:
-    'first second third'
-    'fourth second fifth';
+    'second first third'
+    'fourth first fifth';
   justify-content: space-between;
 }
 
@@ -27,7 +27,7 @@
   width: 13rem;
 }
 
-.postSnippet:nth-child(2) {
+.postSnippet:nth-child(1) {
   width: 26rem;
 }
 
@@ -200,5 +200,93 @@
   
   .ad {
     width: 18rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    margin: 8rem 4rem 0;
+  }
+  
+  .gridContainer {
+    grid-template-areas:
+      'first first'
+      'second third'
+      'fourth fifth';
+  }
+  
+  .postSnippet {
+    width: 12rem;
+  }
+
+  .tag {
+    display: none;
+  }
+  
+  .postHeading, .captionHeader {
+    font-size: 13px;
+    line-height: 1.2rem;
+    margin: 0.7rem 0;
+  }
+  
+  .headingMain {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+  }
+  
+  .postCaption {
+    margin: 0.2rem 0;
+  }
+  
+  .lowerBody {
+    margin: 1.5rem 0 0;
+    width: 100%;
+  }
+
+  .articles {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    display: block;
+    width: 12rem;
+  }
+
+  .container:nth-child(1) {
+    margin-right: 30px;
+  }
+
+  .container:nth-child(3), .ad {
+    display: none;
+  }
+  
+  .captionImage {
+    width: 12rem;
+  }
+
+  .captionBody {
+    margin: 0.3rem 0;
+    width: 100%;
+  }
+  
+  .caption {
+    box-shadow: -0.12rem 0.12rem 0 0 #657281;
+      -webkit-box-shadow: -0.12rem 0.12rem 0 0 #657281;
+      -moz-box-shadow: -0.12rem 0.12rem 0 0 #657281;
+    color: #657281;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.91rem;
+    width: 7rem;
+  }
+  
+  .captionText, .postCaption {
+    font-size: 10px;
+    margin: 0.32rem 0;
+  }
+
+  .first > .postCaption {
+    font-size: 12px;
   }
 }
