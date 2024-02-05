@@ -6,7 +6,10 @@ export const Footer = () => {
       <div className={styles.footerContainer}>
         <div className={styles.footerBody}>
           <div className={styles.footerLogo}>
-            <img src={require('../../assets/logos/Logo.png')} className={styles.footerLogo} alt='footer-logo' />
+            <img
+              src={require('../../assets/logos/Logo.png')}
+              className={styles.footerLogo}
+              alt='footer-logo' />
           </div>
           <div className={styles.links}>
             <div className={styles.linkSections}>
@@ -29,10 +32,34 @@ export const Footer = () => {
         </div>
         <div className={styles.buttons}>
           <div className={styles.icons}>
-            <button><img src={require('../../assets/icons/FACEBOOK ICON 1.png')} className={styles.facebook} alt='facebook' /></button>
-            <button><img src={require('../../assets/icons/X ICON 1.png')} className={styles.x} alt='x' /></button>
-            <button><img src={require('../../assets/icons/INSTAGRAM ICON 1.png')} className={styles.instagram} alt='instagram' /></button>
-            <button><img src={require('../../assets/icons/LIKEDI ICON 1.png')} className={styles.linkedIn} alt='linkedIn' /></button>
+            <button>
+              <img
+                src={require('../../assets/icons/FACEBOOK ICON 1.png')}
+                className={styles.facebook}
+                alt='facebook'
+              />
+            </button>
+            <button>
+              <img
+                src={require('../../assets/icons/X ICON 1.png')}
+                className={styles.x}
+                alt='x'
+              />
+            </button>
+            <button>
+              <img
+                src={require('../../assets/icons/INSTAGRAM ICON 1.png')}
+                className={styles.instagram}
+                alt='instagram'
+              />
+            </button>
+            <button>
+              <img
+                src={require('../../assets/icons/LIKEDI ICON 1.png')}
+                className={styles.linkedIn}
+                alt='linkedIn'
+              />
+            </button>
           </div>
           <div className={styles.track}>
             <button>Get the App</button>

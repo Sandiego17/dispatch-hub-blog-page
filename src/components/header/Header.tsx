@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import styles from './Header.module.css'
 
 interface NavBarProps {
@@ -18,7 +17,6 @@ export const Header = ({
   showNavButtons,
   setShowNavButtons
 }: NavBarProps) => {
-  // const [showNavButtons, setShowNavButtons] = useState(false);
 
   const toggleNavButtons = () => {
     setShowNavButtons(!showNavButtons)
@@ -65,10 +63,10 @@ export const Header = ({
             <input className={styles.searchBarInput} type='text' placeholder='Search' />
           </div>
           <ul>
-            <li className={styles.navLinks}>{home}</li>
-            <li className={styles.navLinks}>{aboutUs}</li>
-            <li className={styles.navLinks}>{services}</li>
-            <li className={styles.navLinks}>{contactUs}</li>
+            <a href='#' className={styles.navLinks}><li>{home}</li></a>
+            <a href='#' className={styles.navLinks}><li>{aboutUs}</li></a>
+            <a href='#' className={styles.navLinks}><li>{services}</li></a>
+            <a href='#' className={styles.navLinks}><li>{contactUs}</li></a>
           </ul>
         </div>
       </div>

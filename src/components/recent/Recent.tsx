@@ -8,7 +8,11 @@ export const Recent = () => {
       <div className={styles.recentSection}>
         <div className={styles.recent}>
           <div className={styles.recentImage}>
-            <img src={require('../../assets/images/Mask group (10).png')} className={styles.articleImage} alt='image10' />
+            <img
+              src={require('../../assets/images/Mask group (10).png')}
+              className={styles.articleImage}
+              alt='image10'
+            />
           </div>
           <div className={styles.recentPost}>
             <h3 className={styles.recentHeading}>PACKAGES</h3>
@@ -18,7 +22,11 @@ export const Recent = () => {
 
         <div className={styles.recent}>
           <div className={styles.recentImage}>
-            <img src={require('../../assets/images/Mask group (11).png')} className={styles.articleImage} alt='image11' />
+            <img
+              src={require('../../assets/images/Mask group (11).png')}
+              className={styles.articleImage}
+              alt='image11'
+            />
           </div>
           <div className={styles.recentPost}>
             <h3 className={styles.recentHeading}>FREIGHT</h3>
@@ -28,7 +36,11 @@ export const Recent = () => {
 
         <div className={styles.recent}>
           <div className={styles.recentImage}>
-            <img src={require('../../assets/images/Mask group (12).png')} className={styles.articleImage} alt='image10' />
+            <img
+              src={require('../../assets/images/Mask group (12).png')}
+              className={styles.articleImage}
+              alt='image10'
+            />
           </div>
           <div className={styles.recentPost}>
             <h3 className={styles.recentHeading}>TRANSPORTATION</h3>
