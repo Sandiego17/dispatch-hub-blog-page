@@ -64,18 +64,18 @@
 
 .navLinks:hover {
   background-color: #F26A3B;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 1.3rem 1.3rem 0 0 ;
 }
 
 @media only screen and (max-width: 1500px) {
   .navButtons {
     display: none;
     position: absolute;
-    top: calc(100% + 25px);
+    top: calc(100% + 1.5rem);
     right: 0;
     background-color: #fff;
     z-index: 1000;
-    width: 300px;
+    width: 18.8rem;
     flex-direction: column;
   }
 
@@ -88,7 +88,7 @@
   .navLinks {
     display: flex;
     justify-content: center;
-    padding: 20px 15px;
+    padding: 1.3rem 0.9rem;
     width: 90%;
   }
 
@@ -117,7 +117,7 @@
 
   .navLinks{
     height: 100%;
-    padding: 1rem 25px;
+    padding: 1rem 1.6rem;
   }
 
   .navButtons {
@@ -162,7 +162,7 @@
   }
 
   .navButtons {
-    top: calc(100% + 20px);
+    top: calc(100% + 1.3rem);
   }
 }
 
@@ -187,7 +187,7 @@
   }
 
   .navButtons > .searchBar {
-    margin: 10px;
+    margin: 0.6rem;
     width: 94%;
   }
 }
