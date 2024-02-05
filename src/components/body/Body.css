@@ -37,13 +37,13 @@
 }
 
 .tag {
-  box-shadow: -.12rem .12rem 0 0 #657281;
-    -webkit-box-shadow: -.12rem .12rem 0 0 #657281;
-    -moz-box-shadow: -.12rem .12rem 0 0 #657281;
+  box-shadow: -0.12rem 0.12rem 0 0 #657281;
+    -webkit-box-shadow: -0.12rem 0.12rem 0 0 #657281;
+    -moz-box-shadow: -0.12rem 0.12rem 0 0 #657281;
   color: #657281;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 400;
-  line-height: .91rem;
+  line-height: 0.91rem;
   position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -67,7 +67,7 @@
   color: #F26A3B;
   font-weight: 500;
   line-height: 1.31rem;
-  margin: .94rem 0;
+  margin: 0.94rem 0;
 }
 
 .headingMain {
@@ -76,8 +76,8 @@
 }
 
 .postCaption {
-  font-size: .75rem;
-  margin: .32rem 0;
+  font-size: 0.75rem;
+  margin: 0.32rem 0;
 }
 
 .lowerBody {
@@ -97,24 +97,24 @@
 }
 
 .captionBody {
-  margin: .63rem 1.25rem;
+  margin: 0.63rem 1.25rem;
   width: 25.63rem;
 }
 
 .caption {
-  box-shadow: -.12rem .12rem 0 0 #657281;
-    -webkit-box-shadow: -.12rem .12rem 0 0 #657281;
-    -moz-box-shadow: -.12rem .12rem 0 0 #657281;
+  box-shadow: -0.12rem 0.12rem 0 0 #657281;
+    -webkit-box-shadow: -0.12rem 0.12rem 0 0 #657281;
+    -moz-box-shadow: -0.12rem 0.12rem 0 0 #657281;
   color: #657281;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 400;
-  line-height: .91rem;
+  line-height: 0.91rem;
   width: 7rem;
 }
 
 .captionText, .adText {
-  font-size: .75rem;
-  margin: .32rem 0;
+  font-size: 0.75rem;
+  margin: 0.32rem 0;
 }
 
 .ad {
@@ -125,7 +125,7 @@
 
 .adLogo {
   display: block;
-  margin: .63rem auto;
+  margin: 0.63rem auto;
 }
 
 .adText {
@@ -134,12 +134,12 @@
 
 .adPrint {
   color: #177df3;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 300;
-  line-height: .94rem;
+  line-height: 0.94rem;
   position: absolute;
   right: 1.56rem;
-  top: -.94rem;
+  top: -0.94rem;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -155,7 +155,7 @@
     width: 35rem;
   }
   .tag, .caption {
-    font-size: .85rem;
+    font-size: 0.85rem;
     line-height: 1rem;
     width: 6.5rem;
   }
@@ -178,7 +178,7 @@
   }
   
   .postCaption, .captionText, .adText {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
     
   .captionImage {
