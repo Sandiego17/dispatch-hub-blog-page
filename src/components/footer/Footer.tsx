@@ -8,7 +8,7 @@ export const Footer = () => {
           <div className={styles.footerLogo}>
             <img
               src={require('../../assets/logos/Logo.png')}
-              className={styles.footerLogo}
+              className={styles.footerLogoImage}
               alt='footer-logo' />
           </div>
           <div className={styles.links}>
