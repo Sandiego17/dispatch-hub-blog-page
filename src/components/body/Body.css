@@ -205,7 +205,7 @@
 
 @media only screen and (max-width: 600px) {
   .body {
-    margin: 8rem 4rem 0;
+    margin: 8rem 1.3rem 0;
   }
   
   .gridContainer {
@@ -215,8 +215,12 @@
       'fourth fifth';
   }
   
-  .postSnippet {
-    width: 12rem;
+  .postSnippet, .container {
+    width: 41vw;
+  }
+
+  .postSnippet:nth-child(1) {
+    width: 87vw;
   }
 
   .tag {
@@ -250,11 +254,10 @@
 
   .container {
     display: block;
-    width: 12rem;
   }
 
   .container:nth-child(1) {
-    margin-right: 30px;
+    margin-right: 5vw;
   }
 
   .container:nth-child(3), .ad {
@@ -262,7 +265,7 @@
   }
   
   .captionImage {
-    width: 12rem;
+    width: 100%;
   }
 
   .captionBody {
