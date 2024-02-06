@@ -26,7 +26,6 @@ export const Body = () => {
           <p className='postCaption'>Lorem Ipsum Dolor Sit Amet Consectetur. Turpis Etiam Gravida Mi Viverra Nisi Aenean Senectus Tortor. At Vitae Id Nunc Aliquet.</p>
         </div>
 
-
         <div className='postSnippet third'>
           <img
             src={require('../../assets/images/Mask group (3).png')}
@@ -59,6 +58,18 @@ export const Body = () => {
           <h3 className='postHeading'>Lorem Ipsum Dolor Sit Amet Consectetur.</h3>
           <p className='postCaption'>Lorem Ipsum Dolor Sit Amet Consectetur. Ut Ut Diam Sit Aliquam Cursus Et Ut Diam Consectetur. Felis laculis Tellus Sed Sed Tellus.</p>
         </div>
+
+        <div className='labelRecent sixth'>
+          <h2 className='labels'>Recent Articles</h2>
+        </div>
+
+        <div className='popular seventh'>
+          <h2 className='labels'>Popular</h2>
+        </div>
+      </div>
+
+      <div className='mostRead'>
+        <h2 className='labels'>Most Read Article</h2>
       </div>
 
       <div className='lowerBody'>

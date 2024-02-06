@@ -12,6 +12,8 @@
 .third { grid-area: third; }
 .fourth { grid-area: fourth; }
 .fifth { grid-area: fifth; }
+.sixth { grid-area: sixth; }
+.seventh { grid-area: seventh; }
 
 .gridContainer {
   display: grid;
@@ -78,6 +80,10 @@
 .postCaption {
   font-size: 0.75rem;
   margin: 0.32rem 0;
+}
+
+.labelRecent, .popular, .mostRead {
+  display: none;
 }
 
 .lowerBody {
@@ -211,7 +217,9 @@
   .gridContainer {
     grid-template-areas:
       'first first'
+      'sixth sixth'
       'second third'
+      'seventh seventh'
       'fourth fifth';
   }
   
@@ -241,9 +249,27 @@
   .postCaption {
     margin: 0.2rem 0;
   }
+
+  .labelRecent, .popular, .mostRead {
+    display: block;
+  }
+
+  .labels {
+    border-left: 4px solid #000;
+    color: #F26A3B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    padding: 10px 15px;
+  }
+
+  .mostRead > h2 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
   
   .lowerBody {
-    margin: 1.5rem 0 0;
+    margin: 0;
     width: 100%;
   }
 
@@ -254,6 +280,7 @@
 
   .container {
     display: block;
+    margin-top: 2rem;
   }
 
   .container:nth-child(1) {
