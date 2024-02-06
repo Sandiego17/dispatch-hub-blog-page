@@ -81,3 +81,43 @@
     line-height: 0.8rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .recentArticles {
+    height: 16.4rem;
+  }
+
+  .sectionHeading {
+    padding: 1.1rem;
+  }
+
+  .recentSection {
+    justify-content: space-between;
+    margin: 0 1.3rem;
+    width: 87vw;
+  }
+
+  .recent {
+    display: block;
+    width: 22vw;
+  }
+
+  .articleImage {
+    width: 100%;
+  }
+
+  .recentPost {
+    margin: 0;
+    width: 100%;
+  }
+
+  .recentHeading {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+
+  .recentText {
+    font-size: 0.6rem;
+    margin: 0.2rem 0;
+  }
+}
