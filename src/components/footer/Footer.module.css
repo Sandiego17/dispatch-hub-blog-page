@@ -96,3 +96,95 @@ li {
     padding: 0.9rem 5rem 0;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 41rem;
+    margin: 2rem 0 0 0;
+  }
+  
+  .footerContainer {
+    padding: 0.4rem;
+  }
+  
+  .footerBody {
+    display: block;
+    margin: 0;
+  }
+  
+  .footerLogo {
+    margin: 0;
+    width: 4.5rem;
+  }
+  
+  .links {
+    margin: 3.6rem 0.7rem;
+    width: 96%;
+  }
+  
+  .linkSections > h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+  }
+  
+  .linkSections > p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    width: 6.9rem;
+  }
+  
+  .buttons {
+    flex-direction: column-reverse;
+    padding: 0 4.3rem 1.3rem;
+  }
+  
+  .icons {
+    justify-content: space-between;
+  }
+  
+  .icons > button {
+    display: flex;
+    align-items: center;
+    height: 3.1rem;
+    justify-content: center;
+    margin: 0;
+    width: 3.1rem;
+  }
+  
+  .icons > button > img {
+    height: 2.1rem;
+    width: 2.1rem;
+  }
+
+  .track {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  
+  .track > button {
+    margin: 0 0 3.1rem;
+  }
+  
+  .copyright {
+    display: block;
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+
+  .copyright > p {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  ul {
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  li {
+    padding: 0;
+  }
+}
