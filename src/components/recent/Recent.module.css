@@ -22,10 +22,14 @@
   display: flex;
 }
 
+.articleImage {
+  width: 7.8vw;
+}
+
 .recentPost {
-  margin: 0 1.4rem;
+  margin: 0 1.75vw;
   padding: 0.3rem 0;
-  width: 11.9rem;
+  width: 14.9vw;
 }
 
 .recentHeading {
@@ -37,9 +41,9 @@
 }
 
 .recentText {
-  font-size: 0.8rem;
+  font-size: 1vw;
   font-weight: 300;
-  line-height: 0.9rem;
+  line-height: 1.1vw;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -67,11 +71,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .recentPost {
-    margin: 0 1.4rem;
-    width: 6rem;
-  }
-
   .recentHeading {
     margin-bottom: 0.7rem;
   }
