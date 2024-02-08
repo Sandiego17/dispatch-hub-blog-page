@@ -4,7 +4,7 @@
 }
 
 .body {
-  margin: 9.3rem 8rem 0;
+  margin: 9.3rem 10vw 0;
 }
 
 .first { grid-area: first; }
@@ -25,12 +25,15 @@
 
 .postSnippet {
   margin: 0 0 1rem 0;
-  position: relative;
-  width: 13rem;
+  width: 17vw;
 }
 
 .postSnippet:nth-child(1) {
-  width: 26rem;
+  width: 33vw;
+}
+
+.postImageContainer {
+  position: relative;
 }
 
 .postImage {
@@ -42,43 +45,37 @@
   box-shadow: -0.12rem 0.12rem 0 0 #657281;
     -webkit-box-shadow: -0.12rem 0.12rem 0 0 #657281;
     -moz-box-shadow: -0.12rem 0.12rem 0 0 #657281;
+  bottom: 0;
   color: #657281;
-  font-size: 0.75rem;
+  font-size: 1vw;
   font-weight: 400;
   line-height: 0.91rem;
+  padding: 0;
   position: absolute;
     left: 50%;
     transform: translateX(-50%);
-  width: 5.5rem;
-}
-
-.tagFlank {
-  top: 6.88rem;
-}
-
-.tagMiddle {
-  top: 16.13rem;
+  width: 8vw;
 }
 
 .tagLast {
-  top: 6.88rem;
-  width: 7rem;
+  width: 10vw;
 }
 
 .postHeading, .captionHeader {
   color: #F26A3B;
+  font-size: 1.4vw;
   font-weight: 500;
-  line-height: 1.31rem;
-  margin: 0.94rem 0;
+  line-height: 1.8vw;
+  margin: 1.2vw 0;
 }
 
 .headingMain {
-  font-size: 1.92rem;
-  line-height: 2.42rem;
+  font-size: 2.6vw;
+  line-height: 3vw;
 }
 
 .postCaption {
-  font-size: 0.75rem;
+  font-size: 0.99vw;
   margin: 0.32rem 0;
 }
 
@@ -99,12 +96,12 @@
 
 .captionImage {
   height: auto;
-  width: 16.19rem;
+  width: 21vw;
 }
 
 .captionBody {
   margin: 0.63rem 1.25rem;
-  width: 25.63rem;
+  width: 33vw;
 }
 
 .caption {
@@ -112,21 +109,26 @@
     -webkit-box-shadow: -0.12rem 0.12rem 0 0 #657281;
     -moz-box-shadow: -0.12rem 0.12rem 0 0 #657281;
   color: #657281;
-  font-size: 0.75rem;
+  font-size: 0.99vw;
   font-weight: 400;
-  line-height: 0.91rem;
-  width: 7rem;
+  line-height: 1vw;
+  padding: 0;
+  width: 9vw;
 }
 
 .captionText, .adText {
-  font-size: 0.75rem;
+  font-size: 0.99vw;
   margin: 0.32rem 0;
 }
 
 .ad {
   margin: 3.13rem 0;
   position: relative;
-  width: 13.75rem;
+  width: 17vw;
+}
+
+.adImage {
+  width: 100%;
 }
 
 .adLogo {
